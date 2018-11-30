@@ -1,0 +1,79 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+header{
+  
+    
+    width: 100%;
+   background-color:black;
+    height: auto;
+
+}
+
+body{
+    background:#FFF0C9;
+}
+
+.content-menu{
+    background-color: blue;
+    margin: auto;
+}
+.menu{
+    padding: 16px;
+
+    
+}
+.menu ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+.menu ul li a{
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+   
+}
+
+.menu ul li a:hover{
+    background: rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 5px 0px 0px black;
+    box-shadow: 0px 5px 0px 0px black;
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+
+
+.foto{
+  display: block;
+ margin: auto;
+width: 50%;
+  z-index: -1;
+}
+.kanon{
+    width:21.8%;
+    position:absolute;
+    top: 1%;
+    left : 2%;
+    z-index: 1; 
+}
+
+.marible{
+    width:23.8%;
+    position:absolute;
+    top: 1.5%;
+    left : 76%;
+    z-index: 1; 
+}
+
+			
